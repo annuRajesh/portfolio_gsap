@@ -26,7 +26,8 @@ const SideProjects = () => {
         t1.from(".project .card",{
             y:20,
             opacity:0,
-            duration:2,
+            duration:1.3,
+            stagger:1.2
             
             
           
@@ -37,9 +38,12 @@ const SideProjects = () => {
   return (
     <div className='project w-full h-full bg-black p-4 flex flex-col justify-center items-center gap-8 max-lg:h-full overflow-hidden'>
         <h2 className='heading text-white text-8xl text-center'>Projects</h2>
-       <div className="card flex flex-wrap  justify-center gap-6">
+       <div className=" flex flex-wrap  justify-center gap-6">
        {
-            projects.map((item,index)=><ProjectCard title={item.title} description={item.description} weblink={item.weblink} gitlink={item.gitlink}/>)
+            projects.map((item,index)=><div className="card w-1/4 max-md:w-1/2 max-sm:w-full" key={index}>
+                <ProjectCard title={item.title} description={item.description} weblink={item.weblink} gitlink={item.gitlink}/>
+            </div>
+            )
         }
        </div>
     </div>
