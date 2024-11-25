@@ -1,21 +1,15 @@
-import React from 'react'
-import Hero from './components/Hero/Hero'
-import Introduction from './components/Hero/Introduction'
-import SideProjects from './components/projects/sideProjects'
-import Skills from './components/skills/Skills'
-import Contact from './components/Contact'
+import React, { useEffect, useLayoutEffect } from 'react'
+
+import Home from './pages/Home'
+import Preloader from './pages/Preloader'
+import gsap from 'gsap'
 
 const App = () => {
+  
   return (
     <div className='overflow-x-hidden'>
-      <Hero/>
-     
-      <Introduction/>
-   
-   
-      <SideProjects/>
-     <Skills/>
-     <Contact/>
+     <Preloader/>
+     <Home/>
     
     </div>
     
