@@ -1,7 +1,7 @@
 [
   {
     "title": "Learning Organizer",
-    "description": "This is a side project designed to track my learning journey during my exploration of TypeScript. Built with React, TypeScript, Redux, API context, and Tailwind CSS, it serves as a frontend-only application. The project allows you to create learning containers, add topics within them, and provides functionality to edit or delete topics as needed, while leveraging Redux for state management and API context for efficient data handling.",
+    "description": "This is a side project designed to track my learning journey during my exploration of TypeScript. Built with React, TypeScript, Redux, API context, and Tailwind CSS, it serves as a frontend-only application.",
     "weblink": "https://organiselearning.vercel.app/",
     "gitlink": "https://github.com/annuRajesh/notes_track"
   },

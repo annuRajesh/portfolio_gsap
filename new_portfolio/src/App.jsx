@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden no-scrollbar'>
       <Hero/>
      
       <Introduction/>

@@ -6,14 +6,10 @@
   font-family: 'Inter',sans-serif;
   --hero-x: -2300px;
 }
-@media (max-width: 1024px) {
-  :root {
-    --hero-x: -1200px; /* Adjusted for smaller screens */
-  }
+.no-scrollbar::-webkit-scrollbar {
+  display: none; 
 }
-
-@media (max-width: 640px) {
-  :root {
-    --hero-x: -600px; /* Adjusted for mobile screens */
-  }
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;   
 }

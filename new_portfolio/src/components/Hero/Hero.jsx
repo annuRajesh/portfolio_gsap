@@ -20,7 +20,7 @@ const Hero = () => {
         })
     })
   return (
-    <div className='hero flex  items-center px-8 w-full h-screen overflow-hidden  bg-black max-md:hidden'>
+    <div className='hero flex  items-center px-8 w-full h-screen overflow-hidden  bg-black font-PlayFair'>
         <h1 className='heading text-[350px] max-lg:text-[225px] max-md:text-[90p] whitespace-nowrap text-white '>Welcome to my portfolio</h1>
     </div>
   )

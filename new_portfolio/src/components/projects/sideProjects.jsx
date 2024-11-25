@@ -40,7 +40,7 @@ const SideProjects = () => {
         <h2 className='heading text-white text-8xl text-center'>Projects</h2>
        <div className=" flex flex-wrap  justify-center gap-6">
        {
-            projects.map((item,index)=><div className="card w-1/4 max-md:w-1/2 max-sm:w-full" key={index}>
+            projects.map((item,index)=><div className="card w-1/4 max-lg:w-1/3 max-md:w-1/2 max-sm:w-full" key={index}>
                 <ProjectCard title={item.title} description={item.description} weblink={item.weblink} gitlink={item.gitlink}/>
             </div>
             )
