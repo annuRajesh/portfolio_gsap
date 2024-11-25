@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Learning Organizer",
+    "description": "This is a side project designed to track my learning journey during my exploration of TypeScript. Built with React, TypeScript, Redux, API context, and Tailwind CSS, it serves as a frontend-only application. The project allows you to create learning containers, add topics within them, and provides functionality to edit or delete topics as needed, while leveraging Redux for state management and API context for efficient data handling.",
+    "weblink": "https://organiselearning.vercel.app/",
+    "gitlink": "https://github.com/annuRajesh/notes_track"
+  },
+
+  {
+    "title": "Notes Mernstack",
+    "description": "This is a CRUD application for managing notes, built using React, Firebase, and Tailwind CSS. The application allows you to create, edit, and delete notes seamlessly, offering a user-friendly interface for efficient note management.",
+    "weblink": "https://notes-mern-stack.vercel.app/",
+    "gitlink": "https://github.com/annuRajesh/Notes_MernStack/tree/main"
+  },
+  {
+    "title": "Nursing Colleges",
+    "description": "This is a landing page designed for a nursing career councellor. It is developed using react,supabase and tailwind css",
+    "weblink": "https://nursingcollegesbangalore.in/",
+    "gitlink": "https://github.com/annuRajesh/NursingCollegeBangalore"
+  },
+  {
+    "title": "Pizza Joint",
+    "description": "This application was created as part of my learning journey in API integration. Built with React, Express, and CSS, it allows users to design a custom pizza by selecting meat, sauce, cheese, and toppings, then generates a recipe based on their choices.",
+    "weblink": "https://pizza-joint-beta.vercel.app/",
+    "gitlink": "https://github.com/annuRajesh/pizza-joint"
+  },
+  {
+    "title": "To Do List",
+    "description": "This is a to-do list application developed using React, MongoDB, and Tailwind CSS. It enables users to efficiently manage tasks by adding, editing, and deleting items, providing a seamless and intuitive interface for organizing daily activities.",
+    "weblink": "https://todo-list-pi-lake.vercel.app/",
+    "gitlink": "https://github.com/annuRajesh/Todo-list/tree/main"
+  }
+]
