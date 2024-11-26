@@ -7,7 +7,7 @@ const Hero = () => {
     gsap.registerPlugin(ScrollTrigger);
     useGSAP(()=>{
         gsap.to('.hero .heading',{
-            x:'-2300px',
+            x:'-2305px',
             duration:4,
             
             scrollTrigger:{
