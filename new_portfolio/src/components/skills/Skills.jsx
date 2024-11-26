@@ -36,7 +36,7 @@ const Skills = () => {
   });
   return (
     <div className="skills w-full h-screen flex flex-col justify-center items-center gap-16">
-      <h2 className="heading text-6xl">What I Work With</h2>
+      <h2 className="heading text-6xl max-md:text-4xl max-md:text-center">What I Work With</h2>
       <div className="grid grid-cols-3 justify-center items-cente gap-10">
         <img src={html} alt="html logo" />
         <img src={css} alt="css logo" />
