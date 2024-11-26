@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react'
-
+import sphere from '../../assets/sphere.gif'
 
 const Introduction = () => {
     gsap.registerPlugin(ScrollTrigger);
@@ -41,7 +41,7 @@ const Introduction = () => {
        </div>
        </div>
        <div className="photo flex justify-center items-center w-1/2 max-lg:w-full p-3 m-5 ">
-       <img src="" alt="profile photo object-cover " />
+      <img src="https://images.unsplash.com/photo-1731436392713-60ef6cc842ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc2fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D" alt="" />
             </div>
     </div>
   )
