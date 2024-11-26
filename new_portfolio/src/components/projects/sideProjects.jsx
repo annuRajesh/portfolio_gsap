@@ -18,7 +18,7 @@ const SideProjects = () => {
         t1.from(".project .heading",{
             x:2000,
             
-            duration:2,
+            duration:0.2,
             
            
 
@@ -26,7 +26,7 @@ const SideProjects = () => {
         t1.from(".project .card",{
             y:20,
             opacity:0,
-            duration:1.3,
+            duration:0.5,
             stagger:1.2
             
             
