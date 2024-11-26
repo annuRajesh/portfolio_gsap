@@ -3,9 +3,6 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react'
 
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-
-
 
 const Introduction = () => {
     gsap.registerPlugin(ScrollTrigger);
@@ -43,12 +40,9 @@ const Introduction = () => {
         <p> Thank you for exploring my portfolio. If you have a development project in mind, want to collaborate on music, or simply wish to discuss web development and adventures, I'm just a message away.</p>
        </div>
        </div>
-       <div className="photo flex justify-center items-center w-1/2 max-lg:w-full">
-       <DotLottieReact
-      src="https://lottie.host/09d5ce8d-53cb-4cae-a0ac-625dece6c04b/AjMkUOQVK4.lottie"
-      loop
-      autoplay
-    />       </div>
+       <div className="photo flex justify-center items-center w-1/2 max-lg:w-full p-3 m-5 ">
+       <img src="" alt="profile photo object-cover " />
+            </div>
     </div>
   )
 }
