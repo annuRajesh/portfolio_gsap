@@ -25,7 +25,7 @@ const SideProjects = () => {
         })
         t1.from(".project .card",{
             y:20,
-            
+            opacity:0,
             duration:0.5,
             stagger:1.2
             
