@@ -13,23 +13,11 @@ const Cursor = () => {
       });
     };
 
-    const handleMouseOver = (e) => {
-      const target = e.target;
-      if (target.closest(".box .skills")) {
-        cursorRef.current.style.backgroundColor = "transparent";
-
-
-      } else {
-        cursorRef.current.style.backgroundColor = "white"; 
-      }
-    };
 
     window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("mouseover", handleMouseOver);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("mouseover", handleMouseOver);
     };
   }, []);
 
