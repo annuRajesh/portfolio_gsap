@@ -6,6 +6,7 @@
   font-family: 'Inter',sans-serif;
   --hero-x: -2300px;
   background-color:rgb(246, 246, 246);
+  cursor: none;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none; 
