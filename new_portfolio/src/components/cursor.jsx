@@ -23,7 +23,7 @@ const Cursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="cursor fixed w-20 h-20 rounded-full bg-white pointer-events-none z-50 mix-blend-difference border-2 border-gray-800 shadow-lg"
+      className="cursor fixed max-md:hidden w-20 h-20 rounded-full bg-white pointer-events-none z-50 mix-blend-difference border-2 border-gray-800 shadow-lg"
     ></div>
   );
 };
